@@ -301,7 +301,7 @@ function App() {
       <hr />
 
       <div>
-        <div id="#landmark-name">
+        <div id="landmark-name">
           {" "}
           Landmark Name :{" "}
           {
@@ -310,7 +310,7 @@ function App() {
             ]?.name
           }
         </div>
-        <div id="#landmark-title">
+        <div id="landmark-title">
           Landmark Title :{" "}
           {
             states[stateSelected]?.city[citySelected]?.landmarks[
@@ -318,7 +318,7 @@ function App() {
             ]?.name
           }
         </div>
-        <div id="#landmark-description">
+        <div id="landmark-description">
           {" "}
           Landmark Description :{" "}
           {
