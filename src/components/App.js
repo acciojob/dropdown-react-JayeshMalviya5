@@ -272,7 +272,7 @@ function App() {
           }
         )}
       </select>
-      <hr />
+      {/* <hr /> */}
 
       <div>
         <div id="state-name"> State Name : {states[stateSelected]?.name}</div>
@@ -282,7 +282,7 @@ function App() {
           State Description : {states[stateSelected]?.description}
         </div>
       </div>
-      <hr />
+      {/* <hr /> */}
 
       <div>
         <div id="city-name"> 
@@ -298,7 +298,7 @@ function App() {
           {states[stateSelected]?.city[citySelected]?.description}
         </div>
       </div>
-      <hr />
+      {/* <hr /> */}
 
       <div>
         <div id="landmark-name">
