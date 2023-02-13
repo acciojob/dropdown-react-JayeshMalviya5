@@ -285,7 +285,7 @@ function App() {
       <hr />
 
       <div>
-        <div id="city-name">
+        <div id="city-name"> 
           {" "}
           City Name : {states[stateSelected]?.city[citySelected]?.name}
         </div>
